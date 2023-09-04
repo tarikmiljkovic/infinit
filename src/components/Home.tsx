@@ -112,12 +112,12 @@ export default function Home() {
                   </h2>
                   <h3>FÜR UNTERNEHMEN | COACHES | KEYNOTE SPEAKER</h3>
                   <p className="relative font-light mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
-                    quis cupidatat mollit aute velit. Et labore commodo nulla
-                    aliqua proident mollit ullamco exercitation tempor. Sint
-                    aliqua anim nulla sunt mollit id pariatur in voluptate
-                    cillum. Eu voluptate tempor esse minim amet fugiat veniam
-                    occaecat aliqua.
+                    Willkommen bei unserem erfahrenen Team aus Österreich, das
+                    seit über 10 Jahren Expertise in Informatik, Design und
+                    Marketing vereint. Wir gestalten digitale Lösungen, von
+                    beeindruckenden Webseiten und E-Shops bis hin zu innovativen
+                    Web- und Mobilanwendungen. Lassen Sie uns Ihre Vision
+                    gemeinsam in die digitale Realität umsetzen.
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
