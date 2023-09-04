@@ -6,7 +6,6 @@ const navigation = [
   { name: "Web Design", href: "#" },
   { name: "Web Shops", href: "#" },
   { name: "Portfolio", href: "#" },
-
   { name: "Kontakt", href: "#" },
 ];
 
@@ -20,7 +19,7 @@ export default function Navbar() {
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Adria</span>
+            <span className="sr-only">Webstark Wien</span>
             <img
               className="h-8 w-auto"
               src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
