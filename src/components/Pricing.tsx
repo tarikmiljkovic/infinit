@@ -129,7 +129,7 @@ export default function Pricing() {
               key={tier.id}
               className={classNames(
                 tier.mostPopular
-                  ? "ring-2 ring-indigo-600"
+                  ? "ring-2 ring-blue-600"
                   : "ring-1 ring-gray-200",
                 "rounded-md p-8 xl:p-10"
               )}
@@ -194,9 +194,9 @@ export default function Pricing() {
                 aria-describedby={tier.id}
                 className={classNames(
                   tier.mostPopular
-                    ? "bg-blue-600 text-white shadow-sm hover:bg-indigo-500"
-                    : "text-blue-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300",
-                  "mt-6 block rounded-sm py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    ? "bg-blue-600 text-white shadow-sm hover:bg-blue-500"
+                    : "text-blue-600 ring-1 ring-inset ring-blue-200 hover:ring-blue-300",
+                  "mt-6 block rounded-sm py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 )}
               >
                 Verfügbarkeit Anfragen

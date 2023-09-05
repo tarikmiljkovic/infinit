@@ -91,7 +91,7 @@ export default function Pricing2() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">
+          <h2 className="text-base font-semibold leading-7 text-blue-600">
             Pricing
           </h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
@@ -130,9 +130,9 @@ export default function Pricing2() {
                 aria-describedby={tier.id}
                 className={classNames(
                   tier.mostPopular
-                    ? "bg-indigo-600 text-white hover:bg-indigo-500"
-                    : "text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300",
-                  "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    ? "bg-blue-600 text-white hover:bg-blue-500"
+                    : "text-blue-600 ring-1 ring-inset ring-blue-200 hover:ring-blue-300",
+                  "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 )}
               >
                 Buy plan
@@ -148,7 +148,7 @@ export default function Pricing2() {
                         feature.tiers[tier.name] ? (
                           <li key={feature.name} className="flex gap-x-3">
                             <CheckIcon
-                              className="h-6 w-5 flex-none text-indigo-600"
+                              className="h-6 w-5 flex-none text-blue-600"
                               aria-hidden="true"
                             />
                             <span>
@@ -231,9 +231,9 @@ export default function Pricing2() {
                         href={tier.href}
                         className={classNames(
                           tier.mostPopular
-                            ? "bg-indigo-600 text-white hover:bg-indigo-500"
-                            : "text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300",
-                          "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            ? "bg-blue-600 text-white hover:bg-blue-500"
+                            : "text-blue-600 ring-1 ring-inset ring-blue-200 hover:ring-blue-300",
+                          "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                         )}
                       >
                         Buy plan
@@ -275,7 +275,7 @@ export default function Pricing2() {
                               <>
                                 {feature.tiers[tier.name] === true ? (
                                   <CheckIcon
-                                    className="mx-auto h-5 w-5 text-indigo-600"
+                                    className="mx-auto h-5 w-5 text-blue-600"
                                     aria-hidden="true"
                                   />
                                 ) : (
