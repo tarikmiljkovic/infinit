@@ -50,7 +50,7 @@ export default function Text() {
     <div className="mx-auto mt-32 max-w-full px-6 sm:mt-40 lg:px-8">
       <div className="mx-auto max-w-full lg:mx-0">
         {texts.map((text) => (
-          <div className="mb-4">
+          <div className="mb-4" key={text.title}>
             <p className="sm:text-2xl text-2xl font-bold  uppercase ">
               {text.title}
             </p>

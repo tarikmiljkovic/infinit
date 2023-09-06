@@ -32,11 +32,6 @@ const values = [
       "Bombensicherer Schutz gegen Hacker, Schadsoftware und Datenverlust",
   },
   {
-    name: "Felsenfeste Sicherheitsstandards",
-    description:
-      "Bombensicherer Schutz gegen Hacker, Schadsoftware und Datenverlust",
-  },
-  {
     name: "Zertifizierte Qualitätssicherung und Projektmanagement",
     description:
       "Zertifiziert durch IREB und ISTQB für einen verlässlich getakteten Projektablauf",
