@@ -52,7 +52,8 @@ const tiers = [
     name: "Webdesign » Template",
     id: "tier-freelancer",
     href: "#",
-    priceMonthly: "€ 2. 770",
+    priceStandard: "€ 2. 770",
+    priceOnePage: "€ 2. 190",
     description: "Auf Vorlagen basierende professionelle Performance-Webseiten",
     features: [
       "Design und Umsetzung",
@@ -73,7 +74,8 @@ const tiers = [
     name: "Webdesign » Template",
     id: "tier-startup",
     href: "#",
-    priceMonthly: "€ 4.470",
+    priceStandard: "€ 4.470",
+    priceOnePage: "€ 3.970",
     description: "A plan that scales with your rapidly growing business.",
     features: [
       "Design und Umsetzung",
@@ -94,7 +96,8 @@ const tiers = [
     name: "Webdesign » Complete",
     id: "tier-enterprise",
     href: "#",
-    priceMonthly: "€ 7. 770",
+    priceStandard: "€ 7. 770",
+    priceOnePage: "€ 5. 590",
     description:
       "All-Inklusive Performance-Pakete mit wirkungsvollen Texten und Fotos",
     features: [
@@ -431,14 +434,58 @@ function App() {
                     <p className="mt-4 text-sm leading-6 text-gray-600">
                       {tier.description}
                     </p>
-                    <p className="mt-6 flex items-baseline gap-x-1">
+                    {/* <p className="mt-6 flex items-baseline gap-x-1">
                       <span className="text-4xl font-bold tracking-tight text-gray-900">
                         {tier.priceMonthly}
                       </span>
                       <span className="text-sm font-semibold leading-6 text-gray-600">
                         /month
                       </span>
+                    </p> */}
+                    <p className="text-sm font-semibold leading-6 text-gray-600 mt-4">
+                      Standard Business Webseite
                     </p>
+                    <p className="mt-0 flex items-baseline gap-x-1">
+                      {/* <span className="text-sm font-semibold leading-6 text-gray-600">
+                        ab
+                      </span> */}
+                      <span className="text-4xl font-bold tracking-tight text-gray-900">
+                        {tier.priceStandard}
+                      </span>
+                      <span className="text-sm font-semibold leading-6 text-gray-600">
+                        exkl. USt.
+                      </span>
+                      {/* <span className="text-sm font-semibold leading-6 text-gray-600">
+                        eur
+                      </span> */}
+                    </p>
+                    <p className="text-sm font-semibold leading-6 text-gray-600 mt-4">
+                      One-Page Business Webseite
+                    </p>
+                    <p className="mt-0 flex items-baseline gap-x-1">
+                      {/* <span className="text-sm font-semibold leading-6 text-gray-600">
+                        ab
+                      </span> */}
+                      <span className="text-4xl font-bold tracking-tight text-gray-900">
+                        {tier.priceOnePage}
+                      </span>
+                      <span className="text-sm font-semibold leading-6 text-gray-600">
+                        exkl. USt.
+                      </span>
+                    </p>
+                    {/* <div className="">
+                      <p className="text-sm font-semibold leading-6 text-gray-600 mt-4">
+                        One-Page Business Webseite
+                      </p>
+                      <p className="mt-0 flex items-baseline gap-x-1">
+                        <span className="text-4xl font-bold tracking-tight text-gray-900">
+                          {tier.alternativePrice[frequency.value]}
+                        </span>
+                        <span className="text-sm font-semibold leading-6 text-gray-600">
+                          {frequency.priceSuffix}
+                        </span>
+                      </p>
+                    </div> */}
                     <ul
                       role="list"
                       className="mt-8 space-y-3 text-sm leading-6 text-gray-600"
