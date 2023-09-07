@@ -9,6 +9,9 @@ import {
   LockClosedIcon,
   XMarkIcon,
   CursorArrowRaysIcon,
+  IdentificationIcon,
+  DevicePhoneMobileIcon,
+  Square3Stack3DIcon,
 } from "@heroicons/react/24/outline";
 import { CheckIcon } from "@heroicons/react/20/solid";
 
@@ -23,7 +26,7 @@ const features = [
     name: "Consulting",
     description:
       "Das Kreativteam wird Ihnen in Kürze eine konzeptionelle Lösung für Ihre Bedürfnisse vorschlagen.",
-    icon: CloudArrowUpIcon,
+    icon: Square3Stack3DIcon,
   },
   {
     name: "Website",
@@ -35,13 +38,13 @@ const features = [
     name: "App",
     description:
       "Mit einer hochwertigen nativen Anwendung können Sie Ihre Reichweite erweitern.",
-    icon: ArrowPathIcon,
+    icon: DevicePhoneMobileIcon,
   },
   {
     name: "Digitales Marketing",
     description:
       "Vorgeplantes Marketing unter Einsatz der Informationstechnologie und der Fähigkeiten unseres Teams ist die beste Lösung zur Förderung Ihres Unternehmens.",
-    icon: FingerPrintIcon,
+    icon: IdentificationIcon,
   },
 ];
 const tiers = [
@@ -288,35 +291,35 @@ function App() {
           <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
               alt="Transistor"
               width={158}
               height={48}
             />
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
               alt="Reform"
               width={158}
               height={48}
             />
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Adobe_Corporate_logo.svg"
               alt="Tuple"
               width={158}
               height={48}
             />
             <img
               className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Google_Play_2022_logo.svg"
               alt="SavvyCal"
               width={158}
               height={48}
             />
             <img
               className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg"
               alt="Statamic"
               width={158}
               height={48}
@@ -360,7 +363,7 @@ function App() {
                   <dt className="text-base font-semibold leading-7 text-gray-900">
                     <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-md bg-blue-600">
                       <feature.icon
-                        className="h-6 w-6 text-white"
+                        className="h-12 w-12 text-white"
                         aria-hidden="true"
                       />
                     </div>
@@ -375,73 +378,15 @@ function App() {
           </div>
         </div>
 
-        {/* Testimonial section */}
-        <div className="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
-          <div className="relative overflow-hidden bg-gray-900 px-6 py-20 shadow-xl sm:rounded-md sm:px-10 sm:py-24 md:px-12 lg:px-20">
-            <img
-              className="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0"
-              src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80"
-              alt=""
-            />
-            <div className="absolute inset-0 bg-gray-900/90 mix-blend-multiply" />
-            <div
-              className="absolute -left-80 -top-56 transform-gpu blur-3xl"
-              aria-hidden="true"
-            >
-              <div
-                className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#ff4694] to-[#776fff] opacity-[0.45]"
-                style={{
-                  clipPath:
-                    "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                }}
-              />
-            </div>
-            <div
-              className="hidden md:absolute md:bottom-16 md:left-[50rem] md:block md:transform-gpu md:blur-3xl"
-              aria-hidden="true"
-            >
-              <div
-                className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#ff4694] to-[#776fff] opacity-25"
-                style={{
-                  clipPath:
-                    "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                }}
-              />
-            </div>
-            <div className="relative mx-auto max-w-2xl lg:mx-0">
-              <img
-                className="h-12 w-auto"
-                src="https://tailwindui.com/img/logos/workcation-logo-white.svg"
-                alt=""
-              />
-              <figure>
-                <blockquote className="mt-6 text-lg font-semibold text-white sm:text-xl sm:leading-8">
-                  <p>
-                    “Amet amet eget scelerisque tellus sit neque faucibus non
-                    eleifend. Integer eu praesent at a. Ornare arcu gravida
-                    natoque erat et cursus tortor consequat at. Vulputate
-                    gravida sociis enim nullam ultricies habitant malesuada
-                    lorem ac.”
-                  </p>
-                </blockquote>
-                <figcaption className="mt-6 text-base text-white">
-                  <div className="font-semibold">Judith Black</div>
-                  <div className="mt-1">CEO of Tuple</div>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-
         {/* Pricing section */}
         <div className="py-24 sm:pt-48">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
               <h2 className="text-base font-semibold leading-7 text-blue-600">
-                Pricing
+                Preispläne für alle Bedürfnisse
               </h2>
               <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                Pricing plans for teams of&nbsp;all&nbsp;sizes
+                Preispläne für alle Bedürfnisse&nbsp;
               </p>
             </div>
             <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
@@ -521,30 +466,6 @@ function App() {
           </div>
         </div>
 
-        {/* FAQs */}
-        <div className="mx-auto max-w-2xl divide-y divide-gray-900/10 px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">
-          <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
-            Frequently asked questions
-          </h2>
-          <dl className="mt-10 space-y-8 divide-y divide-gray-900/10">
-            {faqs.map((faq) => (
-              <div
-                key={faq.id}
-                className="pt-8 lg:grid lg:grid-cols-12 lg:gap-8"
-              >
-                <dt className="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                  {faq.question}
-                </dt>
-                <dd className="mt-4 lg:col-span-7 lg:mt-0">
-                  <p className="text-base leading-7 text-gray-600">
-                    {faq.answer}
-                  </p>
-                </dd>
-              </div>
-            ))}
-          </dl>
-        </div>
-
         {/* CTA section */}
         <div className="relative -z-10 mt-32 px-6 lg:px-8">
           <div
@@ -561,9 +482,9 @@ function App() {
           </div>
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Boost your productivity.
+              Steigern Sie Ihr Geschäft.
               <br />
-              Start using our app today.
+              Nehmen Sie Kontakt mit uns auf.
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
               Incididunt sint fugiat pariatur cupidatat consectetur sit cillum
@@ -571,17 +492,17 @@ function App() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="mailto:office@webstark.at"
                 className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
-                Get started
+                Kontakt
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
                 Learn more <span aria-hidden="true">→</span>
-              </a>
+              </a> */}
             </div>
           </div>
           <div
@@ -599,7 +520,7 @@ function App() {
         </div>
       </main>
 
-      {/* Footer */}
+      {/* Footer
       <div className="mx-auto mt-32 max-w-7xl px-6 lg:px-8">
         <footer
           aria-labelledby="footer-heading"
@@ -689,8 +610,8 @@ function App() {
               </div>
             </div>
           </div>
-        </footer>
-      </div>
+        </footer> 
+      </div>*/}
     </div>
   );
 }
