@@ -528,8 +528,10 @@ function App() {
               Nehmen Sie Kontakt mit uns auf.
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-              Incididunt sint fugiat pariatur cupidatat consectetur sit cillum
-              anim id veniam aliqua proident excepteur commodo do ea.
+              Hinterlassen Sie uns Ihre Nachricht und optional einen
+              präferierten Kontaktzeitpunkt. Wir melden uns ehestmöglich bei
+              Ihnen. In der Regel werden alle Anfragen innerhalb von 24 Stunden
+              vollständig bearbeitet.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
