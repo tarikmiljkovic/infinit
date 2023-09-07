@@ -1,14 +1,12 @@
-import "./App.css";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Feature from "../components/Feature";
 
-function App() {
+export default function Webdesign() {
   return (
     <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-      <Navbar />
-      <Footer />
+      <Feature />
+      <Feature />
+      <Feature />
+      <Feature />
     </div>
   );
 }
-
-export default App;
