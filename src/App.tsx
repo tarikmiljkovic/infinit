@@ -1,6 +1,8 @@
 import "./App.css";
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
+import { TypeAnimation } from "react-type-animation";
+
 import {
   ArrowPathIcon,
   Bars3Icon,
@@ -269,10 +271,29 @@ function App() {
           <div className="py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                {/* <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                   Wir bauen zukunftssicher innovativ, auf dem neuesten Stand
                   digitale Produkte.
-                </h1>
+                </h1> */}
+                <TypeAnimation
+                  sequence={[
+                    // Same substring at the start will only be typed out once, initially
+                    " Wir bauen zukunftssicher innovativ, auf dem neuesten Stand digitale Produkte.",
+                    1000, // wait 1s before replacing "Mice" with "Hamsters"
+                    " Wir beraten Sie im Web Design, Mobile App und Marketing",
+                    1000,
+                    " Wir vereinfachen Ihre prozesse",
+                    1000,
+                    " Wir helfen Ihnen",
+                    1000,
+                  ]}
+                  wrapper="h1"
+                  speed={50}
+                  className={
+                    "text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+                  }
+                  repeat={Infinity}
+                />
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   Consulting. Web. Design. Apps.
                 </p>
