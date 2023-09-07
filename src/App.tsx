@@ -49,46 +49,66 @@ const features = [
 ];
 const tiers = [
   {
-    name: "Freelancer",
+    name: "Webdesign » Template",
     id: "tier-freelancer",
     href: "#",
-    priceMonthly: "$24",
-    description: "The essentials to provide your best work for clients.",
+    priceMonthly: "€ 2. 770",
+    description: "Auf Vorlagen basierende professionelle Performance-Webseiten",
     features: [
-      "5 products",
-      "Up to 1,000 subscribers",
-      "Basic analytics",
-      "48-hour support response time",
+      "Design und Umsetzung",
+      "Inhalte von Ihnen geliefert",
+      "Performance Plus",
+      "Responsive Plus",
+      "Sicherheitsoptimierungen (CMS)",
+      "DSGVO Optimierungen",
+      "Suchmaschinenoptimiert(OnPage)",
+      "Statistiken & Analyse",
+      "Durchgehende Qualitätssicherung",
+      "Gemeinsame Durchsicht und Revision",
+      "Premiumsupport",
     ],
     mostPopular: false,
   },
   {
-    name: "Startup",
+    name: "Webdesign » Template",
     id: "tier-startup",
     href: "#",
-    priceMonthly: "$32",
+    priceMonthly: "€ 4.470",
     description: "A plan that scales with your rapidly growing business.",
     features: [
-      "25 products",
-      "Up to 10,000 subscribers",
-      "Advanced analytics",
-      "24-hour support response time",
-      "Marketing automations",
+      "Design und Umsetzung",
+      "Inhalte von Ihnen geliefert",
+      "Performance Plus",
+      "Responsive Plus",
+      "Sicherheitsoptimierungen (CMS)",
+      "DSGVO Optimierungen",
+      "Suchmaschinenoptimiert(OnPage)",
+      "Statistiken & Analyse",
+      "Durchgehende Qualitätssicherung",
+      "Gemeinsame Durchsicht und Revision",
+      "Premiumsupport",
     ],
     mostPopular: true,
   },
   {
-    name: "Enterprise",
+    name: "Webdesign » Complete",
     id: "tier-enterprise",
     href: "#",
-    priceMonthly: "$48",
-    description: "Dedicated support and infrastructure for your company.",
+    priceMonthly: "€ 7. 770",
+    description:
+      "All-Inklusive Performance-Pakete mit wirkungsvollen Texten und Fotos",
     features: [
-      "Unlimited products",
-      "Unlimited subscribers",
-      "Advanced analytics",
-      "1-hour, dedicated support response time",
-      "Marketing automations",
+      "Design und Umsetzung",
+      "Inhalte von Ihnen geliefert",
+      "Performance Plus",
+      "Responsive Plus",
+      "Sicherheitsoptimierungen (CMS)",
+      "DSGVO Optimierungen",
+      "Suchmaschinenoptimiert(OnPage)",
+      "Statistiken & Analyse",
+      "Durchgehende Qualitätssicherung",
+      "Gemeinsame Durchsicht und Revision",
+      "Premiumsupport",
     ],
     mostPopular: false,
   },
@@ -156,7 +176,7 @@ function App() {
           {/* <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-sm p-2.5 text-gray-700"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -194,7 +214,7 @@ function App() {
               </a>
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                className="-m-2.5 rounded-sm p-2.5 text-gray-700"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
@@ -208,7 +228,7 @@ function App() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-md px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      className="-mx-3 block rounded-sm px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
                     </a>
@@ -217,7 +237,7 @@ function App() {
                 <div className="py-6">
                   <a
                     href="#"
-                    className="-mx-3 block rounded-md px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-sm px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Log in
                   </a>
@@ -253,10 +273,10 @@ function App() {
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   Consulting. Web. Design. Apps.
                 </p>
-                <div className="mt-10 flex items-center justify-center gap-x-6">
+                {/* <div className="mt-10 flex items-center justify-center gap-x-6">
                   <a
                     href="#"
-                    className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                    className="rounded-sm bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                   >
                     Get started
                   </a>
@@ -266,14 +286,14 @@ function App() {
                   >
                     Learn more <span aria-hidden="true">→</span>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
 
         {/* Logo cloud */}
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        {/* <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
@@ -311,7 +331,7 @@ function App() {
               height={48}
             />
           </div>
-          {/* <div className="mt-16 flex justify-center">
+          <div className="mt-16 flex justify-center">
             <p className="relative rounded-full px-4 py-1.5 text-sm leading-6 text-gray-600 ring-1 ring-inset ring-gray-900/10 hover:ring-gray-900/20">
               <span className="hidden md:inline">
                 Transistor saves up to $40,000 per year, per employee by working
@@ -322,8 +342,8 @@ function App() {
                 our case study <span aria-hidden="true">&rarr;</span>
               </a>
             </p>
-          </div> */}
-        </div>
+          </div>
+        </div> */}
 
         {/* Feature section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
@@ -347,7 +367,7 @@ function App() {
               {features.map((feature) => (
                 <div key={feature.name} className="relative pl-16">
                   <dt className="text-base font-semibold leading-7 text-gray-900">
-                    <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-md bg-blue-600">
+                    <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-sm bg-blue-600">
                       <feature.icon
                         className="h-12 w-12 text-white"
                         aria-hidden="true"
@@ -385,10 +405,10 @@ function App() {
                 <div
                   key={tier.id}
                   className={classNames(
-                    tier.mostPopular ? "lg:z-10 lg:rounded-b-none" : "lg:mt-8",
-                    tierIdx === 0 ? "lg:rounded-r-none" : "",
-                    tierIdx === tiers.length - 1 ? "lg:rounded-l-none" : "",
-                    "flex flex-col justify-between rounded-md bg-white p-8 ring-1 ring-gray-200 xl:p-10"
+                    tier.mostPopular ? "lg:z-10 lg:rounded-sm-none" : "lg:mt-8",
+                    tierIdx === 0 ? "lg:rounded-sm-none" : "",
+                    tierIdx === tiers.length - 1 ? "lg:rounded-sm-none" : "",
+                    "flex flex-col justify-between rounded-sm bg-white p-8 ring-1 ring-gray-200 xl:p-10"
                   )}
                 >
                   <div>
@@ -403,8 +423,8 @@ function App() {
                         {tier.name}
                       </h3>
                       {tier.mostPopular ? (
-                        <p className="rounded-full bg-blue-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-blue-600">
-                          Most popular
+                        <p className="rounded-sm bg-blue-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-blue-600">
+                          Häufig gebucht
                         </p>
                       ) : null}
                     </div>
@@ -441,10 +461,10 @@ function App() {
                       tier.mostPopular
                         ? "bg-blue-600 text-white shadow-sm hover:bg-blue-500"
                         : "text-blue-600 ring-1 ring-inset ring-blue-200 hover:ring-blue-300",
-                      "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                      "mt-8 block rounded-sm py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                     )}
                   >
-                    Buy plan
+                    Verfügbarkeit anfragen
                   </a>
                 </div>
               ))}
@@ -467,7 +487,7 @@ function App() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="mailto:office@webstark.at"
-                className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                className="rounded-sm bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
                 Kontakt
               </a>
