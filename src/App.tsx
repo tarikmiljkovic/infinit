@@ -266,7 +266,7 @@ function App() {
           <div className="py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
-                <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                   Wir bauen zukunftssicher innovativ, auf dem neuesten Stand
                   digitale Produkte.
                 </h1>
@@ -501,6 +501,8 @@ function App() {
           </div>
         </div>
       </main>
+
+      <div className="mx-auto mt-32 max-w-7xl px-6 lg:px-8"></div>
 
       {/* Footer
       <div className="mx-auto mt-32 max-w-7xl px-6 lg:px-8">
