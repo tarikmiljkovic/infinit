@@ -179,32 +179,32 @@ export default function Contact() {
                 type="submit"
                 className="block w-full rounded-sm bg-blue-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
-                Let’s talk
+                Lass uns sprechen
               </button>
             </div>
             <p className="mt-4 text-sm leading-6 text-gray-500">
-              By submitting this form, I agree to the{" "}
+              Durch das Absenden dieses Formulars stimme ich der{" "}
               <a href="#" className="font-semibold text-blue-600">
-                privacy&nbsp;policy
+                Datenschutzrichtlinie&nbsp;
               </a>
-              .
+              zu.
             </p>
           </form>
           <div className="lg:mt-6 lg:w-80 lg:flex-none">
-            <img
+            {/* <img
               className="h-12 w-auto"
               src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
               alt=""
-            />
+            /> */}
             <figure className="mt-10">
-              <blockquote className="text-lg font-semibold leading-8 text-gray-900">
+              {/* <blockquote className="text-lg font-semibold leading-8 text-gray-900">
                 <p>
                   “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
                   expedita voluptas culpa sapiente alias molestiae. Numquam
                   corrupti in laborum sed rerum et corporis.”
                 </p>
-              </blockquote>
-              <figcaption className="mt-10 flex gap-x-6">
+              </blockquote> */}
+              {/* <figcaption className="mt-10 flex gap-x-6">
                 <img
                   src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=96&h=96&q=80"
                   alt=""
@@ -218,7 +218,7 @@ export default function Contact() {
                     CEO of Workcation
                   </div>
                 </div>
-              </figcaption>
+              </figcaption> */}
             </figure>
           </div>
         </div>
