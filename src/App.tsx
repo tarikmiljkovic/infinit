@@ -4,11 +4,7 @@ import { Dialog } from "@headlessui/react";
 import { TypeAnimation } from "react-type-animation";
 
 import {
-  ArrowPathIcon,
-  Bars3Icon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
+  ArrowDownCircleIcon,
   XMarkIcon,
   CursorArrowRaysIcon,
   IdentificationIcon,
@@ -67,13 +63,13 @@ const tiers = [
       "Suchmaschinenoptimiert(OnPage)",
       "Statistiken & Analyse",
       "Durchgehende Qualitätssicherung",
-      "Gemeinsame Durchsicht und Revision",
-      "Premiumsupport",
+      "Gemeinsame Durchsicht und 1 Revision Inkludiert",
+      "Premiumsupport 1 Woche Inkludiert",
     ],
     mostPopular: false,
   },
   {
-    name: "Webdesign » Template",
+    name: "Webdesign » Experience",
     id: "tier-startup",
     href: "#",
     priceStandard: "€ 4.470",
@@ -82,15 +78,15 @@ const tiers = [
     features: [
       "Design und Umsetzung",
       "Inhalte von Ihnen geliefert",
-      "Performance Plus",
-      "Responsive Plus",
+      "High-end Performance",
+      "High-end Responsive",
       "Sicherheitsoptimierungen (CMS)",
       "DSGVO Optimierungen",
       "Suchmaschinenoptimiert(OnPage)",
       "Statistiken & Analyse",
       "Durchgehende Qualitätssicherung",
-      "Gemeinsame Durchsicht und Revision",
-      "Premiumsupport",
+      "Gemeinsame Durchsicht und 1 Revision Inkludiert",
+      "Premiumsupport 2 Wochen Inkludiert",
     ],
     mostPopular: true,
   },
@@ -104,16 +100,16 @@ const tiers = [
       "All-Inklusive Performance-Pakete mit wirkungsvollen Texten und Fotos",
     features: [
       "Design und Umsetzung",
-      "Inhalte von Ihnen geliefert",
-      "Performance Plus",
-      "Responsive Plus",
+      "Inhaltserstellung durch uns",
+      "High-end Performance ",
+      "High-end Responsive ",
       "Sicherheitsoptimierungen (CMS)",
       "DSGVO Optimierungen",
       "Suchmaschinenoptimiert(OnPage)",
       "Statistiken & Analyse",
       "Durchgehende Qualitätssicherung",
-      "Gemeinsame Durchsicht und Revision",
-      "Premiumsupport",
+      "Gemeinsame Durchsicht und 2 Revision Inkludiert",
+      "Premiumsupport 4 Wochen Inkludiert",
     ],
     mostPopular: false,
   },
@@ -170,7 +166,7 @@ function App() {
         >
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Webstark Wein Webdesign</span>
               <img
                 className="h-8 w-auto"
                 src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
@@ -210,7 +206,7 @@ function App() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">Webstark Wien Web Design</span>
                 <img
                   className="h-8 w-auto"
                   src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
@@ -239,14 +235,14 @@ function App() {
                     </a>
                   ))}
                 </div>
-                <div className="py-6">
+                {/* <div className="py-6">
                   <a
                     href="#"
                     className="-mx-3 block rounded-sm px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Log in
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </Dialog.Panel>
@@ -270,7 +266,7 @@ function App() {
           </div> */}
           <div className="py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <div className="mx-auto max-w-2xl text-center">
+              <div className="mx-auto max-w-7xl text-center">
                 {/* <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                   Wir bauen zukunftssicher innovativ, auf dem neuesten Stand
                   digitale Produkte.
@@ -278,14 +274,14 @@ function App() {
                 <TypeAnimation
                   sequence={[
                     // Same substring at the start will only be typed out once, initially
-                    " Wir bauen zukunftssicher innovativ, auf dem neuesten Stand digitale Produkte.",
-                    1000, // wait 1s before replacing "Mice" with "Hamsters"
-                    " Wir beraten Sie im Web Design, Mobile App und Marketing",
-                    1000,
-                    " Wir vereinfachen Ihre prozesse",
-                    1000,
-                    " Wir helfen Ihnen",
-                    1000,
+                    "Erstellen Sie Ihre Website mit Experten aus Wien.",
+                    5000, // wait 1s before replacing "Mice" with "Hamsters"
+                    "Wir beraten Sie im Web Design, Mobile App, Web Shops.",
+                    5000,
+                    " Wir steigern Ihre Profitabilität signifikant.",
+                    5000,
+                    "Wir automatisieren langweilige Arbeit für Sie.",
+                    5000,
                   ]}
                   wrapper="h1"
                   speed={50}
@@ -294,9 +290,30 @@ function App() {
                   }
                   repeat={Infinity}
                 />
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Consulting. Web. Design. Apps.
+                <p className="mt-6 text-2xl sm:text-4xl leading-8 font-semibold  text-blue-600">
+                  Web Design. Mobile Apps. Software. Consulting.
                 </p>
+
+                {/* <a href="#">
+                  <span></span>
+                </a> */}
+
+                <a
+                  className="flex items-center justify-center rounded-sm mt-24"
+                  href="#anchor"
+                >
+                  <ArrowDownCircleIcon
+                    className="h-12 w-12 text-blue-500 text-center justify-center self-center"
+                    // aria-hidden="true"
+                  />
+                </a>
+                {/* <div className="flex items-center justify-center rounded-sm mt-24">
+                  <ArrowDownCircleIcon
+                    className="h-12 w-12 text-blue-500 text-center justify-center self-center"
+                    // aria-hidden="true"
+                  />
+                </div> */}
+
                 {/* <div className="mt-10 flex items-center justify-center gap-x-6">
                   <a
                     href="#"
@@ -370,7 +387,10 @@ function App() {
         </div> */}
 
         {/* Feature section */}
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
+        <div
+          className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8"
+          id="anchor"
+        >
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-blue-600">
               FÜR UNTERNEHMEN | ÄRZTE | RECHTSANWÄLTE | COACHES | CONSULTANTS
@@ -409,7 +429,7 @@ function App() {
         </div>
 
         {/* Pricing section */}
-        <div className="py-24 sm:pt-48">
+        <div className="py-24 pb-10 sm:pt-48">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
               <h2 className="text-base font-semibold leading-7 text-blue-600">
@@ -471,9 +491,11 @@ function App() {
                       <span className="text-4xl font-bold tracking-tight text-gray-900">
                         {tier.priceStandard}
                       </span>
+
                       <span className="text-sm font-semibold leading-6 text-gray-600">
-                        exkl. USt.
+                        keine Folgekosten
                       </span>
+
                       {/* <span className="text-sm font-semibold leading-6 text-gray-600">
                         eur
                       </span> */}
@@ -521,7 +543,8 @@ function App() {
                     </ul>
                   </div>
                   <a
-                    href={tier.href}
+                    // href={tier.href}
+                    href="mailto:office@webstark.at"
                     aria-describedby={tier.id}
                     className={classNames(
                       tier.mostPopular
@@ -536,6 +559,17 @@ function App() {
               ))}
             </div>
           </div>
+        </div>
+        {/* exkl.  */}
+        <div className="flex justify-center">
+          <p className="relative rounded-full px-4 py-1.5 text-sm leading-6 text-gray-600 ring-1 ring-inset ring-gray-900/10 hover:ring-gray-900/20">
+            <span className="hidden md:inline">Alle Preise </span>
+            <span className="font-semibold text-blue-600 cursor-default">
+              <span className="absolute inset-0" aria-hidden="true" /> exkl.
+              Ust.
+              <span aria-hidden="true"></span>
+            </span>
+          </p>
         </div>
 
         {/* CTA section */}
