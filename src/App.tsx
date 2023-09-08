@@ -84,7 +84,7 @@ const features = [
 ];
 const tiers = [
   {
-    name: "Webdesign » Template",
+    name: "Webdesign » Template ⭐",
     id: "tier-freelancer",
     href: "#",
     priceStandard: "€ 2. 770",
@@ -106,7 +106,7 @@ const tiers = [
     mostPopular: false,
   },
   {
-    name: "Webdesign » Experience",
+    name: "Webdesign » Experience ⭐⭐⭐",
     id: "tier-startup",
     href: "#",
     priceStandard: "€ 4.470",
@@ -128,7 +128,7 @@ const tiers = [
     mostPopular: true,
   },
   {
-    name: "Webdesign » Complete",
+    name: "Webdesign » Complete ⭐⭐⭐⭐⭐",
     id: "tier-enterprise",
     href: "#",
     priceStandard: "€ 7. 770",
