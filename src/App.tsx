@@ -290,8 +290,30 @@ function App() {
                   }
                   repeat={Infinity}
                 />
+
+                <h1 className="hidden">webdesign wien</h1>
+                <h1 className="hidden">
+                  Webdesigner, Programmierer & wordpress epxerte in Wien
+                </h1>
+                <h2 className="hidden">
+                  Ich erstelle Webseiten in Agentur-Qualität für kleine und
+                  große Unternehmen zu transparenten und fairen Preisen.
+                </h2>
+                <h3 className="hidden">Webdesign</h3>
+                {/* <h4 className="hidden">
+                  Erstellen Sie Ihre Website mit Experten aus Wien.
+                </h4> */}
                 <p className="mt-6 text-2xl sm:text-4xl leading-8 font-semibold  text-blue-600">
-                  Web Design. Mobile Apps. Software. Consulting.
+                  {/* Web Design. Mobile Apps. Software. Consulting. */}
+                  Konzeption & Gestaltung von Websites, Mobile Apps und Web
+                  Shops.
+                </p>
+
+                <p className="hidden">
+                  Konzeption & Gestaltung von Websites mit Fokus auf
+                  hochwertigem & minimalistischen Design, klaren Strukturen und
+                  durchdachter Benutzerführung. Individuell & maßgeschneidert
+                  auf die Identität Ihres Unternehmens und dessen Zielgruppe(n).
                 </p>
 
                 {/* <a href="#">
