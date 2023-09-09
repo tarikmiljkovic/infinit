@@ -308,6 +308,11 @@ function App() {
                   Wir bauen zukunftssicher innovativ, auf dem neuesten Stand
                   digitale Produkte.
                 </h1> */}
+                <h1 className="text-2xl sm:text-4xl font-semibold my-6 text-gray-600 ">
+                  {/* We are infinit. */}
+                  We are webstark.
+                  {/* Webdesigner, Programmierer & wordpress epxerte in Wien */}
+                </h1>
                 <TypeAnimation
                   sequence={[
                     // Same substring at the start will only be typed out once, initially
@@ -323,19 +328,21 @@ function App() {
                   wrapper="h1"
                   speed={50}
                   className={
-                    "my-2 text-6xl font-bold tracking-tight text-gray-900 sm:text-8xl"
+                    "my-6 text-5xl sm:text-7xl font-bold tracking-tight text-gray-800 "
                   }
                   repeat={Infinity}
                 />
 
-                <h1 className="text-4xl my-2 ">
-                  Webdesigner, Programmierer & wordpress epxerte in Wien
-                </h1>
-                <h2 className="my-2 text-3xl sm:text-4xl leading-8   text-blue-600">
-                  {/* Web Design. Mobile Apps. Software. Consulting. */}
+                <h2 className="text-xl my-6 text-gray-600 ">
                   Konzeption & Gestaltung von Websites, Mobile Apps und Web
                   Shops.
+                  {/* Webdesigner, Programmierer & wordpress epxerte in Wien */}
                 </h2>
+                {/* Web Design. Mobile Apps. Software. Consulting. */}
+                {/* <h2 className="my-2 text-3xl sm:text-4xl leading-8   text-blue-600">
+                  Konzeption & Gestaltung von Websites, Mobile Apps und Web
+                  Shops.
+                </h2> */}
 
                 <p className="hidden">
                   Konzeption & Gestaltung von Websites mit Fokus auf
@@ -343,6 +350,24 @@ function App() {
                   durchdachter Benutzerführung. Individuell & maßgeschneidert
                   auf die Identität Ihres Unternehmens und dessen Zielgruppe(n).
                 </p>
+
+                <div className="mx-auto mt-10 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                  <img
+                    // col-span-2
+                    // max-h-48
+                    // w-full
+
+                    // lg:col-span-2
+                    // col-end-5
+                    // col-span-2
+                    // place-self-end
+                    className="col-start-1 object-contain w-full"
+                    src="src/assets/bewertungen.png"
+                    alt="google"
+                    width={158}
+                    height={48}
+                  />
+                </div>
 
                 {/* <h1 className="hidden">webdesign wien</h1>
                 <h1 className="hidden ">
