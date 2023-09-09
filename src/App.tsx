@@ -363,13 +363,13 @@ function App() {
                   href="#anchor"
                 >
                   <ArrowDownCircleIcon
-                    className="h-12 w-12 text-blue-500 text-center justify-center self-center"
+                    className="h-12 w-12 text-blue-600 text-center justify-center self-center"
                     // aria-hidden="true"
                   />
                 </a>
                 {/* <div className="flex items-center justify-center rounded-sm mt-24">
                   <ArrowDownCircleIcon
-                    className="h-12 w-12 text-blue-500 text-center justify-center self-center"
+                    className="h-12 w-12 text-blue-600 text-center justify-center self-center"
                     // aria-hidden="true"
                   />
                 </div> */}
@@ -377,7 +377,7 @@ function App() {
                 {/* <div className="mt-10 flex items-center justify-center gap-x-6">
                   <a
                     href="#"
-                    className="rounded-sm bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                    className="rounded-sm bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                   >
                     Get started
                   </a>
@@ -608,7 +608,7 @@ function App() {
                     aria-describedby={tier.id}
                     className={classNames(
                       tier.mostPopular
-                        ? "bg-blue-600 text-white shadow-sm hover:bg-blue-500"
+                        ? "bg-blue-600 text-white shadow-sm hover:bg-blue-600"
                         : "text-blue-600 ring-1 ring-inset ring-blue-200 hover:ring-blue-300",
                       "mt-8 block rounded-sm py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                     )}
@@ -707,7 +707,7 @@ function App() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="mailto:office@webstark.at"
-                className="rounded-sm bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                className="rounded-sm bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
                 Kontakt
               </a>
