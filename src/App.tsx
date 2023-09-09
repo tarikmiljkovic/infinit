@@ -303,7 +303,7 @@ function App() {
           </div> */}
           <div className="py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <div className="mx-auto max-w-7xl text-center">
+              <div className="mx-auto max-w-7xl">
                 {/* <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                   Wir bauen zukunftssicher innovativ, auf dem neuesten Stand
                   digitale Produkte.
@@ -323,25 +323,15 @@ function App() {
                   wrapper="h1"
                   speed={50}
                   className={
-                    "text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+                    "my-2 text-6xl font-bold tracking-tight text-gray-900 sm:text-8xl"
                   }
                   repeat={Infinity}
                 />
 
-                <h1 className="hidden">webdesign wien</h1>
-                <h1 className="hidden">
+                <h1 className="text-4xl my-2 ">
                   Webdesigner, Programmierer & wordpress epxerte in Wien
                 </h1>
-                <h2 className="hidden">
-                  Ich erstelle Webseiten in Agentur-Qualität für kleine und
-                  große Unternehmen zu transparenten und fairen Preisen.
-                </h2>
-                <h3 className="hidden">Webdesign</h3>
-                {/* <h4 className="hidden">
-                  Erstellen Sie Ihre Website mit Experten aus Wien.
-                </h4> */}
-                <h1>Webdesigner, Programmierer & wordpress epxerte in Wien</h1>
-                <h2 className="mt-6 text-2xl sm:text-4xl leading-8 font-semibold  text-blue-600">
+                <h2 className="my-2 text-3xl sm:text-4xl leading-8   text-blue-600">
                   {/* Web Design. Mobile Apps. Software. Consulting. */}
                   Konzeption & Gestaltung von Websites, Mobile Apps und Web
                   Shops.
@@ -353,6 +343,19 @@ function App() {
                   durchdachter Benutzerführung. Individuell & maßgeschneidert
                   auf die Identität Ihres Unternehmens und dessen Zielgruppe(n).
                 </p>
+
+                {/* <h1 className="hidden">webdesign wien</h1>
+                <h1 className="hidden ">
+                  Webdesigner, Programmierer & wordpress epxerte in Wien
+                </h1>
+                <h2 className="hidden">
+                  Ich erstelle Webseiten in Agentur-Qualität für kleine und
+                  große Unternehmen zu transparenten und fairen Preisen.
+                </h2> */}
+                {/* <h3 className="hidden">Webdesign</h3> */}
+                {/* <h4 className="hidden">
+                  Erstellen Sie Ihre Website mit Experten aus Wien.
+                </h4> */}
 
                 {/* <a href="#">
                   <span></span>
