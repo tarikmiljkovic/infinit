@@ -362,7 +362,7 @@ function App() {
                     // col-span-2
                     // place-self-end
                     className="col-start-1 object-contain w-full"
-                    src="../public/bewertungen.png"
+                    src="/bewertungen.png"
                     alt="google"
                     width={158}
                     height={48}
