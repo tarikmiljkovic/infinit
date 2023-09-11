@@ -187,6 +187,10 @@ const footerNavigation = {
   ],
 };
 
+// import { useState } from "react";
+// import { Dialog } from "@headlessui/react";
+// import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -752,7 +756,10 @@ function App() {
         {/* <addresse></addresse> */}
       </main>
 
-      <div className="mx-auto mt-32 max-w-7xl px-6 lg:px-8"></div>
+      <div className="mx-auto mt-32 max-w-7xl px-6 lg:px-8">
+              
+
+      </div>
     </div>
   );
 }

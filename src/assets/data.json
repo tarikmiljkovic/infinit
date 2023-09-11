@@ -1,0 +1,178 @@
+
+{
+
+const stats = [
+  { id: 1, name: "🚀 Websites gestartet", value: "75+" },
+  { id: 2, name: "🔥 Mobile Apps entwickelt", value: "10+" },
+  { id: 3, name: "🚀 Wordpress Sites entwickelt", value: "45+" },
+];
+
+const timeline = [
+  {
+    name: "Strategie",
+    description:
+      "Als Partner, der auf den Aufbau von Websites, Shops, Wordpress Sites und mobilen Apps spezialisiert ist, helfen wir Ihnen, eine leistungsstarke Produkt- und Marketingstrategie zu entwickeln, um den Markt zu erobern.",
+    date: "Phase I",
+    dateTime: "2021-08",
+  },
+  {
+    name: "Design",
+    description:
+      "Wir können Ihnen helfen, eine perfekte Produkt-UX/UI zu entdecken und zu entwerfen, die Benutzer begeistern wird.",
+    date: "Phase II",
+    dateTime: "2021-12",
+  },
+  {
+    name: "Development",
+    description:
+      "Wir können einfache Webseite, Wordpress Webseite, Web Shop, Mobile App oder eine größere technische Lösung für Ihr Unternehmen- oder Innovationsprojekt entwickeln, um eine schnelle Markteinführung und ein optimales Qualitätsniveau zu gewährleisten.",
+    date: "Phase III",
+    dateTime: "2022-02",
+  },
+  {
+    name: "Server Einsatz",
+    description:
+      "Wir können uns um die Bereitstellung und kontinuierliche Bereitstellung und Integration auf unserem oder Ihrem Server mit den innovativen Technologien und Konzepten kümmern, die Ihnen Kosten sparen, eine 24-Stunden-Verfügbarkeit Ihrer Websites und Apps an 365 Tagen im Jahr gewährleisten und den Verlust von Kunden verhindern.",
+    date: "Phase IV",
+    dateTime: "2022-12",
+  },
+];
+
+const navigation = [
+  { name: "Product", href: "#" },
+  { name: "Features", href: "#" },
+  { name: "Marketplace", href: "#" },
+  { name: "Company", href: "#" },
+];
+const features = [
+  {
+    name: "Consulting",
+    description:
+      "Das Kreativteam wird Ihnen in Kürze eine konzeptionelle Lösung für Ihre Bedürfnisse vorschlagen.",
+    icon: Square3Stack3DIcon,
+  },
+  {
+    name: "Website",
+    description:
+      "Eine professionell gestaltete Website übernimmt die Rolle eines guten Verkäufers und dient dazu, den Kunden zu animieren und den Verkauf abzuschließen.",
+    icon: CursorArrowRaysIcon,
+  },
+  {
+    name: "App",
+    description:
+      "Mit einer hochwertigen nativen Anwendung können Sie Ihre Reichweite erweitern.",
+    icon: DevicePhoneMobileIcon,
+  },
+  {
+    name: "Digitales Marketing",
+    description:
+      "Vorgeplantes Marketing unter Einsatz der Informationstechnologie und der Fähigkeiten unseres Teams ist die beste Lösung zur Förderung Ihres Unternehmens.",
+    icon: IdentificationIcon,
+  },
+];
+const tiers = [
+  {
+    name: "Webdesign » Template ⭐",
+    id: "tier-freelancer",
+    href: "#",
+    priceStandard: "€ 2. 770",
+    priceOnePage: "€ 2. 190",
+    description: "Auf Vorlagen basierende professionelle Performance-Webseiten",
+    features: [
+      "Design und Umsetzung",
+      "Inhalte von Ihnen geliefert",
+      "Performance Plus",
+      "Responsive Plus",
+      "Sicherheitsoptimierungen (CMS)",
+      "DSGVO Optimierungen",
+      "Suchmaschinenoptimiert(OnPage)",
+      "Statistiken & Analyse",
+      "Durchgehende Qualitätssicherung",
+      "Gemeinsame Durchsicht und 1 Revision Inkludiert",
+      "Premiumsupport 1 Woche Inkludiert",
+    ],
+    mostPopular: false,
+  },
+  {
+    name: "Webdesign » Experience ⭐⭐⭐",
+    id: "tier-startup",
+    href: "#",
+    priceStandard: "€ 4.470",
+    priceOnePage: "€ 3.970",
+    description: "A plan that scales with your rapidly growing business.",
+    features: [
+      "Design und Umsetzung",
+      "Inhalte von Ihnen geliefert",
+      "High-end Performance",
+      "High-end Responsive",
+      "Sicherheitsoptimierungen (CMS)",
+      "DSGVO Optimierungen",
+      "Suchmaschinenoptimiert(OnPage)",
+      "Statistiken & Analyse",
+      "Durchgehende Qualitätssicherung",
+      "Gemeinsame Durchsicht und 1 Revision Inkludiert",
+      "Premiumsupport 2 Wochen Inkludiert",
+    ],
+    mostPopular: true,
+  },
+  {
+    name: "Webdesign » Complete ⭐⭐⭐⭐⭐",
+    id: "tier-enterprise",
+    href: "#",
+    priceStandard: "€ 7. 770",
+    priceOnePage: "€ 5. 590",
+    description:
+      "All-Inklusive Performance-Pakete mit wirkungsvollen Texten und Fotos",
+    features: [
+      "Design und Umsetzung",
+      "Inhaltserstellung durch uns",
+      "High-end Performance ",
+      "High-end Responsive ",
+      "Sicherheitsoptimierungen (CMS)",
+      "DSGVO Optimierungen",
+      "Suchmaschinenoptimiert(OnPage)",
+      "Statistiken & Analyse",
+      "Durchgehende Qualitätssicherung",
+      "Gemeinsame Durchsicht und 2 Revision Inkludiert",
+      "Premiumsupport 4 Wochen Inkludiert",
+    ],
+    mostPopular: false,
+  },
+];
+const faqs = [
+  {
+    id: 1,
+    question: "What's the best thing about Switzerland?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  // More questions...
+];
+const footerNavigation = {
+  solutions: [
+    { name: "Hosting", href: "#" },
+    { name: "Data Services", href: "#" },
+    { name: "Uptime Monitoring", href: "#" },
+    { name: "Enterprise Services", href: "#" },
+  ],
+  support: [
+    { name: "Pricing", href: "#" },
+    { name: "Documentation", href: "#" },
+    { name: "Guides", href: "#" },
+    { name: "API Reference", href: "#" },
+  ],
+  company: [
+    { name: "About", href: "#" },
+    { name: "Blog", href: "#" },
+    { name: "Jobs", href: "#" },
+    { name: "Press", href: "#" },
+    { name: "Partners", href: "#" },
+  ],
+  legal: [
+    { name: "Claim", href: "#" },
+    { name: "Privacy", href: "#" },
+    { name: "Terms", href: "#" },
+  ],
+};
+
+}
