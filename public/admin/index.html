@@ -10,8 +10,15 @@
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <script>
+        declare global {
+            interface Window {
+                netlifyIdentity: any;
+            }
+        }
+
+
       if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", (user) => {
+        window.netlifyIdentity.on("init", (user:any) => {
           if (!user) {
             window.netlifyIdentity.on("login", () => {
               document.location.href = "/admin/";
