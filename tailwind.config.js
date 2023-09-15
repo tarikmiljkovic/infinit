@@ -31,7 +31,7 @@ export default {
     // },
     extend: {
       fontFamily: {
-        sans: ["Poppins", "Libre Franklin", "Verdana", "sans-serif"],
+        sans: ["Inter", "Poppins", "Libre Franklin", "Verdana", "sans-serif"],
       },
     },
   },
