@@ -207,12 +207,8 @@ function App() {
         >
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Webstark Wein Webdesign</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
-                alt=""
-              />
+              <span className="sr-only">Infinit</span>
+              <img className="h-8 w-auto" src="./logo.svg" alt="" />
             </a>
           </div>
           {/* <div className="flex lg:hidden">
@@ -756,10 +752,7 @@ function App() {
         {/* <addresse></addresse> */}
       </main>
 
-      <div className="mx-auto mt-32 max-w-7xl px-6 lg:px-8">
-              
-
-      </div>
+      <div className="mx-auto mt-32 max-w-7xl px-6 lg:px-8"></div>
     </div>
   );
 }
