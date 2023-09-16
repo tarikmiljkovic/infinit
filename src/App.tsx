@@ -481,7 +481,7 @@ function App() {
         >
           <div className="mx-auto max-w-2xl lg:text-center">
             <h3 className="text-base font-semibold leading-7 text-blue-600">
-              FÜR UNTERNEHMEN | ÄRZTE | RECHTSANWÄLTE | COACHES | CONSULTANTS
+              Über uns
             </h3>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Consulting. Web Design. Mobile App Entwicklung. Marketing.
